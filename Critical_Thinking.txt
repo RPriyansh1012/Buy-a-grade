@@ -1,0 +1,71 @@
+Course: Web Programming 
+
+Assignment: CW 03 Forms and PHP 
+
+Student Name: 
+
+Date: 7/1/26 
+
+  
+
+1) Development Summary 
+
+- What I built:  
+
+- Files I edited: 
+
+- Main objective achieved:  
+
+  
+
+2) Test Evidence 
+
+- Test Case A (valid input): 
+
+  Expected: I expect that the values inputs will be accepted and they will all be outputted in a correct format  
+
+  Actual:  
+
+- Test Case B (blank field): 
+
+  Expected: I expect that an error message will be displayed because there are empty fields detected. 
+
+  Actual: 
+
+- Test Case C (multi-select 2+ options): 
+
+  Expected: I would expect the multiple inputs to be accepted and handled correctly. Then they should all be outputted in the correct format. 
+
+  Actual: 
+
+  
+
+3) Critical Thinking Responses 
+
+Q1: When linking the html file to the PHP file, multiple fields need to match to ensure that the values gathered in the html get correctly manipulated/utilized. If the name attribute is changed in the form field, then the values will not be utilized correctly in the PHP file, resulting in the information not being printed or printed incorrectly. 
+
+ 
+
+Q2: The brackets at the end of ‘options’ are required because it allows for multiple values to be stored into an array. Without the brackets, there will be no array for multiple values to be stored in. The failure that occurs without the brackets is that each value will be stored sequentially into the same position. Though each of the values is stored, they are overriding the previous value, so only the most recently saved value will be stored. 
+
+Q3: The important difference between isset and empty for PHP is that isset checks if a variable has been declared or not, not necessarily if it has a value assigned to it. For example, if a variable has been declared, but no value has been assigned yet, then isset will return false because there is no value “set” to that variable. This contrasts to empty because check if that variable is empty will return true since no value has been assigned. 
+
+Q4: Inputs should be validated before any write operation because it should ensure that all inputs are acceptable. These checks could prevent any number of errors or the potential to accidentally overwrite previously saved data.  A bug that this could prevent is an incorrect upload type. Maybe the upload requires specific data types or file types, and without a check, an unexpected input could cause issues. 
+
+Q5: A difference between a flat file and a database is that the flat file is considerably lighter weight. This alone is a reason to choose a flat file over a database for this assignment since there is little data be stored. Another difference is that a database saves relational information (info that links some data to another different piece of data). This is unnecessary for the assignment because there is no “connection” between the data being stored that we need to track. 
+
+Q6: To verify data we took the code from previous sections and utilized that for the verification. We did this because it ensured that all relevant information regarding the data matched in both input/output and verification sections. 
+
+Q7: To improve security and safety we would implement a database rather than a flat file because it would allow us to better relate the different inputs to specific people. For example, linking a name to a card number to a card type. Additionally, we would implement JavaScript because that is the best way to improve security on web pages, as mentioned in class earlier.  
+
+Q8: An issue we had when starting the assignment was figuring out what was going on, where operations were happening, and what types of files to even utilize for the different codes provided. Adding additional html and PHP structure to the code would help students when initially starting the assignment. Having a more polished look to the code when testing during each exercise could also help students because it would add a level of clarity to the exercises. This additional clarity would help reduce mistakes. 
+
+  
+
+4) Reflection 
+
+- Biggest debugging challenge: 
+
+- What I learned about HTML-PHP data flow: 
+
+- What I would improve next: 
